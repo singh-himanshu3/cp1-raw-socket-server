@@ -34,7 +34,7 @@ This is the same architecture that underlies Node.js, nginx, and Python's own as
 
 **Start the server:**
 ```bash
-python3 server.py
+python3 select.py
 ```
 
 **Connect clients (open separate terminals for each):**
@@ -60,7 +60,7 @@ Close any client terminal with `Ctrl+C`. The server will log the disconnect and 
 
 ```
 CheckPoint1/
-    server.py       # Single-file server implementation (~70 lines)
+    select.py       # Single-file server implementation (~70 lines)
     README.md       # This file
 ```
 
